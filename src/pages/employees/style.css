@@ -1,5 +1,36 @@
-.eployeesInfo {
+.employeesInfo {
   border: 3px solid teal;
   padding: 5px 14px;
-  width: 100%;
+  margin: 5px;
+}
+
+.active {
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+  height: 400px;
+}
+
+.fields {
+  margin: 10px 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.input_label {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
 }

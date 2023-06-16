@@ -7,7 +7,7 @@ const tasks: ITasks[] = [];
 
 const employeesReducer = (state = employees, action: any) => {
   switch (action.type) {
-    case 'LOAD-EMPLOYEES':
+    case 'LOAD_EMPLOYEES':
       return [...state, ...action.payload];
     default:
       return state;
@@ -16,7 +16,7 @@ const employeesReducer = (state = employees, action: any) => {
 
 const tasksReducer = (state = tasks, action: any) => {
   switch (action.type) {
-    case 'LOAD-TASKS':
+    case 'LOAD_TASKS':
       return [...state, ...action.payload];
     default:
       return state;
